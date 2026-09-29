@@ -1,34 +1,133 @@
 <!doctype html>
 <html lang="pt-BR">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>AgroFeira - Sobre</title>
-  </head>
+</head>
 
 <body>
+
+    <a href="#conteudo" class="pular">Pular para o conteúdo</a>
+
     <!-- Cabeçalho -->
-    <header>
+    <header class="cabecalho-site">
         <h1>AgroFeira - Sobre</h1>
 
-        <nav aria-label="Principal">
+        <nav aria-label="Principal" class="menu">
             <ul>
-                <li><a href="index.html" aria-current="page">Início</a></li>
+                <li><a href="index.html">Início</a></li>
                 <li><a href="safra.html">Safra</a></li>
                 <li><a href="cadastro-produtor.html">Cadastro</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="sobre.html" aria-current="page">Sobre</a></li>
             </ul>
         </nav>
     </header>
+
     <!-- Conteúdo principal -->
-    <main>
+    <main id="conteudo">
+
+        <h2>Sobre a AgroFeira</h2>
+
+        <!-- Depoimento -->
+        <article>
+            <h3>Depoimento</h3>
+
+            <figure>
+                <img
+                    src="cupuacu.jpg"
+                    alt="Cupuaçu maduro sobre uma superfície"
+                    width="330"
+                    height="220"
+                    loading="lazy"
+                >
+
+                <figcaption>
+                    Cupuaçu comercializado na feira.
+                    Foto: BjoernS, CC BY-SA 2.0 DE, via Wikimedia Commons.
+                </figcaption>
+            </figure>
+
+            <blockquote>
+                <p>
+                    A feira aproxima os produtores da comunidade e facilita
+                    o acesso a produtos cultivados na região.
+                </p>
+            </blockquote>
+
+            <p>— Maria, produtora local.</p>
+        </article>
+
+        <!-- Como vender -->
+        <section>
+            <h3>Como vender na feira</h3>
+
+            <ol>
+                <li>Faça o cadastro como produtor.</li>
+                <li>Informe os produtos que pretende vender.</li>
+                <li>Leve os produtos para a feira no dia combinado.</li>
+            </ol>
+        </section>
+
+        <!-- Glossário -->
+        <section>
+            <h3>Glossário</h3>
+
+            <dl>
+                <dt>Saca</dt>
+                <dd>Embalagem utilizada para armazenar e transportar produtos.</dd>
+
+                <dt>Cacho</dt>
+                <dd>Conjunto de frutos ligados à mesma haste.</dd>
+
+                <dt>Rasa</dt>
+                <dd>Medida utilizada na comercialização de açaí.</dd>
+            </dl>
+        </section>
+
+        <!-- Perguntas frequentes -->
+        <section>
+            <h3>Perguntas frequentes</h3>
+
+            <details name="perguntas" open class="pergunta">
+                <summary>Quem pode vender na AgroFeira?</summary>
+                <p>
+                    Produtores cadastrados que comercializam produtos aceitos
+                    pela feira.
+                </p>
+            </details>
+
+            <details name="perguntas" class="pergunta">
+                <summary>Quando acontece a feira?</summary>
+                <p>
+                    A feira acontece semanalmente no horário informado na
+                    página inicial.
+                </p>
+            </details>
+
+            <details name="perguntas" class="pergunta">
+                <summary>Os produtos estão disponíveis o ano inteiro?</summary>
+                <p>
+                    Não. A disponibilidade pode variar conforme a época de
+                    safra de cada produto.
+                </p>
+            </details>
+        </section>
+
+        <!-- Enfeite decorativo -->
+        <img
+            src="enfeite.png"
+            alt=""
+        >
+
     </main>
-    <!-- Conteúdo relacionado -->
-    <aside>
-    </aside>
+
     <!-- Rodapé -->
-    <footer>
-      <p>AgroFeira - Html idealizado por Leonnardo Lair</p>
+    <footer class="rodape-site">
+        <p>AgroFeira - Html idealizado por Leonnardo Lair</p>
     </footer>
+
 </body>
+
 </html>
