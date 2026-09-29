@@ -5,24 +5,111 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>AgroFeira</title>
   </head>
-  <body>
+<body>
+    <!-- Cabeçalho -->
     <header>
-      <h1>AgroFeira</h1>
-      <nav>
-        <ul>
-          <li><a href="https://www.ufra.edu.br/">UFRA</a></li>
-        </ul>
-      </nav>
+        <h1>AgroFeira</h1>
+
+        <nav aria-label="Principal">
+            <ul>
+                <li><a href="index.html" aria-current="page">Início</a></li>
+                <li><a href="safra.html">Safra</a></li>
+                <li><a href="cadastro-produtor.html">Cadastro</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
     </header>
+    <!-- Conteúdo principal -->
     <main>
-      <h2>Agrofeira</h2>
-      <p>
-        Um evento idealizado para ser feito na comunidade de Paragominas
-      </p>
-      <img src="feira.png" alt="Feira de verduras e vendedores">
+
+        <!-- Links internos -->
+        <p>
+          <a href="#feira">Conheça a feira</a>|<a href="#produtos">Veja nossos produtos</a>
+        </p>
+
+        <!-- Primeira seção temática -->
+        <section>
+            <h2 id="feira">Conheça a AgroFeira</h2>
+
+            <p>
+                A AgroFeira reúne produtores da região e a comunidade,
+                incentivando a <em>valorização da produção local</em>.
+            </p>
+
+            <figure>
+                <img
+                    src="feira-330.jpg"
+                    alt="Feira com exposição de produtos agrícolas"
+                >
+
+                <figcaption>
+                    Produtos comercializados na feira.
+                    Foto: Rayelle da Silva Freitas, CC BY-SA 4.0, via Wikimedia Commons
+                </figcaption>
+            </figure>
+        </section>
+
+        <!-- Região de busca -->
+        <search>
+            <form method="get">
+                <label for="campo">Procurar produto</label>
+
+                <input
+                    type="search"
+                    id="campo"
+                    name="campo"
+                >
+
+                <button type="submit">
+                    <img
+                        src="lupa.png"
+                        alt="Procurar"
+                    >
+                </button>
+            </form>
+        </search>
+
+        <!-- Segunda seção temática -->
+        <section>
+            <h2 id="produtos">Produtos da feira</h2>
+
+            <ul>
+                <li>Mandioca — saca de 60 kg</li>
+                <li>Banana-prata — cacho</li>
+                <li>Açaí — rasa</li>
+                <li>Pimenta-do-reino — quilo</li>
+                <li>Cupuaçu — quilo</li>
+                <li>Alface — maço</li>
+            </ul>
+        </section>
+
+        <!-- Aviso -->
+        <div>
+            <p>
+                Os preços dos produtos mudam toda semana.
+                <strong>Consulte os preços atualizados antes da compra.</strong>
+            </p>
+        </div>
+
     </main>
+
+    <!-- Conteúdo relacionado -->
+    <aside>
+        <h2>Informações da feira</h2>
+
+        <p>
+            Endereço: Paragominas - PA
+        </p>
+
+        <p>
+            Horário: sábado, das 7h às 12h
+        </p>
+    </aside>
+
+    <!-- Rodapé -->
     <footer>
-      <p>Html idealizado por Leonnardo Lair</p>
+      <p>AgroFeira - Html idealizado por Leonnardo Lair</p>
     </footer>
-  </body>
+
+</body>
 </html>
