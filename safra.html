@@ -1,34 +1,128 @@
 <!doctype html>
 <html lang="pt-BR">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>AgroFeira - Safra</title>
-  </head>
+</head>
 
 <body>
+
     <!-- Cabeçalho -->
     <header>
         <h1>AgroFeira - Safra</h1>
 
         <nav aria-label="Principal">
             <ul>
-                <li><a href="index.html" aria-current="page">Início</a></li>
-                <li><a href="safra.html">Safra</a></li>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="safra.html" aria-current="page">Safra</a></li>
                 <li><a href="cadastro-produtor.html">Cadastro</a></li>
                 <li><a href="sobre.html">Sobre</a></li>
             </ul>
         </nav>
     </header>
+
     <!-- Conteúdo principal -->
     <main>
+
+        <h2>Calendário de safra</h2>
+
+        <p id="legenda-safra">
+            A tabela apresenta a disponibilidade dos produtos nos seis
+            primeiros meses do ano. Os valores indicam se a disponibilidade
+            está cheia, meia ou vazia.
+        </p>
+
+        <table aria-describedby="legenda-safra">
+
+            <caption>
+                Disponibilidade dos produtos da AgroFeira por mês
+            </caption>
+
+            <thead>
+                <tr>
+                    <th scope="col">Produto</th>
+                    <th scope="col">Janeiro</th>
+                    <th scope="col">Fevereiro</th>
+                    <th scope="col">Março</th>
+                    <th scope="col">Abril</th>
+                    <th scope="col">Maio</th>
+                    <th scope="col">Junho</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th scope="row">Mandioca</th>
+                    <td>cheio</td>
+                    <td>cheio</td>
+                    <td>meia</td>
+                    <td>meia</td>
+                    <td>vazio</td>
+                    <td>vazio</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">Banana-prata</th>
+                    <td>meia</td>
+                    <td>cheio</td>
+                    <td>cheio</td>
+                    <td>cheio</td>
+                    <td>meia</td>
+                    <td>vazio</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">Açaí</th>
+                    <td>vazio</td>
+                    <td>vazio</td>
+                    <td>meia</td>
+                    <td>meia</td>
+                    <td>cheio</td>
+                    <td>cheio</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">Pimenta-do-reino</th>
+                    <td>meia</td>
+                    <td>meia</td>
+                    <td>cheio</td>
+                    <td>cheio</td>
+                    <td>cheio</td>
+                    <td>meia</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">Cupuaçu</th>
+                    <td>cheio</td>
+                    <td>cheio</td>
+                    <td>meia</td>
+                    <td>vazio</td>
+                    <td>vazio</td>
+                    <td>vazio</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">Alface</th>
+                    <td>cheio</td>
+                    <td>cheio</td>
+                    <td>cheio</td>
+                    <td>cheio</td>
+                    <td>cheio</td>
+                    <td>cheio</td>
+                </tr>
+            </tbody>
+
+        </table>
+
     </main>
-    <!-- Conteúdo relacionado -->
-    <aside>
-    </aside>
+
     <!-- Rodapé -->
     <footer>
-      <p>AgroFeira - Html idealizado por Leonnardo Lair</p>
+        <p>AgroFeira - Html idealizado por Leonnardo Lair</p>
     </footer>
+
 </body>
+
 </html>
