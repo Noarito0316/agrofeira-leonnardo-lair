@@ -1,10 +1,13 @@
 :root {
     --cor-fundo: #d7e3d1;
     --cor-superficie: #ebf1e8;
+    
     --cor-texto: #000000;
     --cor-texto-suave: #292a29;
-    --cor-marca: #356f1b;
-    --cor-sobre-marca: #d6e2d1;
+    
+    --cor-marca: #234d12;
+    --cor-sobre-marca: #ebf1e8;
+    
     --cor-borda: #162f0b;
 
     --fonte-texto: "Oswald", sans-serif;;
