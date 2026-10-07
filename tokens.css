@@ -1,20 +1,26 @@
 :root {
     --cor-fundo: #d7e3d1;
     --cor-superficie: #ebf1e8;
-    
+
     --cor-texto: #000000;
     --cor-texto-suave: #292a29;
-    
+
     --cor-marca: #234d12;
     --cor-sobre-marca: #ebf1e8;
-    
+
     --cor-borda: #162f0b;
 
     --fonte-texto: "Oswald", sans-serif;;
     --fonte-titulo: "Oswald", sans-serif;
 
-    --tamanho-texto: 1rem;
+    /*
+     texto = 1rem 
+     h3 = 1 × 1,25 = 1,25rem 
+     h2 = 1,25 × 1,25 = 1,5625rem 
+     h1 = 1,5625 × 1,25 = 1,953125rem 
+     */
 
+    --tamanho-texto: 1rem;
     --tamanho-h3: 1.25rem;
     --tamanho-h2: 1.563rem;
     --tamanho-h1: 1.953rem;
