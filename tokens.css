@@ -1,0 +1,27 @@
+:root {
+    --cor-fundo: #d7e3d1;
+    --cor-superficie: #ebf1e8;
+    --cor-texto: #000000;
+    --cor-texto-suave: #292a29;
+    --cor-marca: #356f1b;
+    --cor-sobre-marca: #d6e2d1;
+    --cor-borda: #162f0b;
+
+    --fonte-texto: "Oswald", sans-serif;;
+    --fonte-titulo: "Oswald", sans-serif;
+
+    --tamanho-texto: 1rem;
+
+    --tamanho-h3: 1.25rem;
+    --tamanho-h2: 1.563rem;
+    --tamanho-h1: 1.953rem;
+
+    --espaco-1: 0.5rem;
+    --espaco-2: 1rem;
+    --espaco-3: 1.5rem;
+    --espaco-4: 2rem;
+
+    --raio: 8px;
+
+    --sombra: 0 4px 12px rgb(0 0 0 / 0.12);
+    }
